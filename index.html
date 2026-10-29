@@ -2,35 +2,25 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dyy • @nyd24594</title>
+<title>Dyy • Tasikmalaya</title>
 <style>
   body {
     background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
     font-family: 'Segoe UI', sans-serif;
     display: flex; justify-content: center; align-items: center;
     min-height: 100vh; margin: 0; padding: 20px;
-    transition: 0.5s;
   }
-  body.dark { background: linear-gradient(135deg, #2c2c2c 0%, #000 100%); }
   .card {
     background: white; width: 100%; max-width: 380px;
     border-radius: 25px; padding: 35px 25px;
     text-align: center; box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-    transition: 0.5s;
   }
-  body.dark .card { background: #1a1a1a; color: white; }
   .card img {
     width: 130px; height: 130px; border-radius: 50%;
     border: 5px solid #ff9a9e; object-fit: cover;
-    animation: float 3s ease-in-out infinite;
-  }
-  @keyframes float {
-    0%,100% { transform: translateY(0); }
-    50% { transform: translateY(-8px); }
   }
   h1 { margin: 15px 0 5px; font-size: 28px; }
   .bio { color: #666; font-size: 14px; margin-bottom: 22px; line-height: 1.6; }
-  body.dark .bio { color: #bbb; }
   .links a {
     display: block; color: white; text-decoration: none;
     padding: 13px; border-radius: 50px; margin: 12px 0;
@@ -38,34 +28,22 @@
   }
   .links a:hover { transform: scale(1.05); }
   .ig { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+  .loc { background: #222; }
   .wa { background: #25D366; }
-  .music { background: #222; }
-  body.dark .music { background: #333; }
-  .toggle {
-    position: fixed; top: 20px; right: 20px;
-    background: white; border: none;
-    border-radius: 50px; padding: 10px 15px;
-    cursor: pointer; box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-  }
 </style>
 </head>
 <body>
-  <button class="toggle" onclick="document.body.classList.toggle('dark')">🌙 / ☀️</button>
-  
   <div class="card">
     <img src="dyy.jpg" alt="Dyy">
     <h1>Dyy ✨</h1>
-    <p class="bio">haiii welcome to my little universe! ♡<br>📍 Tasikmalaya, Jawa Barat<br>just a girl with big dreams 💭</p>
+    <p class="bio">Hello, welcome to my world! ♡<br>📍 Tasikmalaya, Jawa Barat<br>Dreamer | Learner | Future Creator</p>
     
     <div class="links">
-      <a href="https://instagram.com/nyd24594" target="_blank" class="ig">📸 @nyd24594 on Instagram</a>
-      <a href="https://wa.me/6281234567890" target="_blank" class="wa">💬 Chat Me!</a>
-      <a href="#" onclick="document.getElementById('audio').play(); return false;" class="music">🎵 Play My Favorite Song</a>
+      <a href="https://instagram.com/nyd24594" target="_blank" class="ig">📸 Instagram - @nyd24594</a>
+      <a href="https://wa.me/6281228786553" target="_blank" class="loc">📍 From Tasikmalaya</a>
+      <a href="https://wa.me/6281228786553" target="_blank" class="wa">💬 Say Hi on WhatsApp</a>
     </div>
-
-    <audio id="audio" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
-    
-    <p style="font-size:11px; color:#aaa; margin-top:25px;">made with ♡ in Tasikmalaya • 2026<br>click 🌙 for dark mode!</p>
+    <p style="font-size:11px; color:#aaa; margin-top:25px;">Made with ♡ in Tasikmalaya • 2026</p>
   </div>
 </body>
 </html>
